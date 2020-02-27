@@ -3,7 +3,7 @@ Deep Convolutional Network for Image Super-Resolution implemented with Tensorflo
 
 The original paper is [Learning a Deep Convolutional Network for Image Super-Resolution](https://arxiv.org/abs/1501.00092)
 <p align="center">
-  <img src="https://github.com/MarkPrecursor/SRCNN-keras/blob/master/SRCNN.png" width="800"/>
+  <img src="https://github.com/BadMachine/SRCNN-tfjs/blob/master/additional/arch.jpg" width="800"/>
 </p>
 
 This implementation have some difference with the original paper, include:
