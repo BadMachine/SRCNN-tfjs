@@ -18,14 +18,19 @@ This implementation have some difference with the original paper, include:
 
 ##### Predicting on test data
 ```js
-prediction.predict();
+let cnn = require('srcnn');
+
+let srcnn_= new cnn();
+```
+```js
+cnn.prediction.testprediction();
 ```
 
 ##### Predicting on your pictures
 ```js
-predict.predict_on_image(Path_to_image);
+cnn.prediction.predict_on_image(Path_to_image);
 ```
 ### Training:
 ```js
-training.train({ createDataset: false }); // use true if you want to create or refresh dataset
+cnn.training.train({ createDataset: false }); // use true if you want to create or refresh dataset
 ```
