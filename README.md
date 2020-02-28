@@ -14,14 +14,26 @@ This implementation have some difference with the original paper, include:
 * The color space of YCrCb in Matlab and OpenCV also have some difference. So if you want to compare your results with some academic paper, you may want to use the code written with matlab.
 
 
-### Evaluating result:
 
-##### Predicting on test data
+### Data preparation
+#### First of all you need to create two folders with training images and testing images. Then easily call:
 ```js
 const cnn = require('srcnn');
 
 let srcnn_= new cnn();
 ```
+```js
+cnn.prepare.prepare_data(path_to_test_images);
+cnn.prepare.prepare_crop_data(path_to_train_images);
+
+```
+
+
+
+### Evaluating result:
+
+##### Predicting on test data
+
 ```js
 cnn.prediction.testprediction();
 ```
