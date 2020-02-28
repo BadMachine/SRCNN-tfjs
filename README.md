@@ -30,7 +30,7 @@ cnn.prepare.prepare_crop_data(path_to_train_images);
 
 ### Training:
 ```js
-cnn.training.train(); // use true if you want to create or refresh dataset (Data preparation)
+srcnn.training.train(); // use true if you want to create or refresh dataset (Data preparation)
 ```
 
 
@@ -39,10 +39,10 @@ cnn.training.train(); // use true if you want to create or refresh dataset (Data
 ##### Predicting on test data
 
 ```js
-cnn.prediction.testprediction();
+srcnn.prediction.testprediction();
 ```
 
 ##### Predicting on your pictures
 ```js
-cnn.prediction.predict_on_image(Path_to_image);
+srcnn.prediction.predict_on_image(Path_to_image);
 ```
