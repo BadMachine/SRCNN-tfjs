@@ -44,5 +44,5 @@ cnn.prediction.predict_on_image(Path_to_image);
 ```
 ### Training:
 ```js
-cnn.training.train({ createDataset: false }); // use true if you want to create or refresh dataset
+cnn.training.train({  createDataset: false }); // use true if you want to create or refresh dataset (Data preparation)
 ```
