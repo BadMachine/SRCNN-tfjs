@@ -30,7 +30,7 @@ cnn.prepare.prepare_crop_data(path_to_train_images);
 
 ### Training:
 ```js
-cnn.training.train({  createDataset: false }); // use true if you want to create or refresh dataset (Data preparation)
+cnn.training.train(); // use true if you want to create or refresh dataset (Data preparation)
 ```
 
 
