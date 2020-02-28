@@ -20,7 +20,7 @@ This implementation have some difference with the original paper, include:
 ```js
 const cnn = require('srcnn');
 
-let srcnn_= new cnn();
+let srcnn= new cnn();
 ```
 ```js
 srcnn.prepare.prepare_data(path_to_test_images);
