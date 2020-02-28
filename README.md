@@ -30,7 +30,7 @@ srcnn.prepare.prepare_crop_data(path_to_train_images);
 
 ### Training:
 ```js
-srcnn.training.train(); // use true if you want to create or refresh dataset (Data preparation)
+srcnn.training.train(); 
 ```
 
 
