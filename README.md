@@ -18,7 +18,7 @@ This implementation have some difference with the original paper, include:
 
 ##### Predicting on test data
 ```js
-let cnn = require('srcnn');
+const cnn = require('srcnn');
 
 let srcnn_= new cnn();
 ```
