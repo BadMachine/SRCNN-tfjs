@@ -23,8 +23,8 @@ const cnn = require('srcnn');
 let srcnn_= new cnn();
 ```
 ```js
-cnn.prepare.prepare_data(path_to_test_images);
-cnn.prepare.prepare_crop_data(path_to_train_images);
+srcnn.prepare.prepare_data(path_to_test_images);
+srcnn.prepare.prepare_crop_data(path_to_train_images);
 
 ```
 
