@@ -28,6 +28,10 @@ cnn.prepare.prepare_crop_data(path_to_train_images);
 
 ```
 
+### Training:
+```js
+cnn.training.train({  createDataset: false }); // use true if you want to create or refresh dataset (Data preparation)
+```
 
 
 ### Evaluating result:
@@ -41,8 +45,4 @@ cnn.prediction.testprediction();
 ##### Predicting on your pictures
 ```js
 cnn.prediction.predict_on_image(Path_to_image);
-```
-### Training:
-```js
-cnn.training.train({  createDataset: false }); // use true if you want to create or refresh dataset (Data preparation)
 ```
