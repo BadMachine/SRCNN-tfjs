@@ -30,7 +30,7 @@ srcnn.prepare.prepare_crop_data(path_to_train_images);
 
 ### Training:
 ```js
-srcnn.training.train(); 
+srcnn.training.train({epochs: 300, batchSize: 128});
 ```
 
 
