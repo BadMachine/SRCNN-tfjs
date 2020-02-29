@@ -39,7 +39,7 @@ srcnn.training.train({epochs: 300, batchSize: 128});
 ##### Predicting on test data
 
 ```js
-srcnn.prediction.testprediction();
+srcnn.prediction.testprediction(path_to_test_image);
 ```
 
 ##### Predicting on your pictures
