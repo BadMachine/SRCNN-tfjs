@@ -56,6 +56,9 @@ srcnn.prediction.predict_on_image(Path_to_image);
 <p align="center">
  <img src="https://github.com/BadMachine/SRCNN-tfjs/blob/master/additional/2.png" />
            </p>
+<p align="center">
+ <img src="https://github.com/BadMachine/SRCNN-tfjs/blob/master/additional/4.png" />
+           </p>
 
 <p align="center">
  <img src="https://github.com/BadMachine/SRCNN-tfjs/blob/master/additional/3.png" />
