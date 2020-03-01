@@ -13,7 +13,10 @@ This implementation have some difference with the original paper, include:
 * I did not set different learning rate in different layer, but I found this network still work.
 * The color space of YCrCb in Matlab and OpenCV also have some difference. So if you want to compare your results with some academic paper, you may want to use the code written with matlab.
 
-
+### Installation
+```cli
+npm install srcnn
+```
 
 ### Data preparation
 #### First of all you need to create two folders with training images and testing images. Then easily call:
